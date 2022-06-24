@@ -9,7 +9,6 @@ body{
     margin: 0;
     font-family: 'Open Sans';
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
-    /* font-size: 140%; */
 }
 
 
@@ -20,16 +19,18 @@ body{
     padding: 2em;
     width: 100%;
     border-radius: 30px;
-    max-width: 320px;
+    max-width: 400px;
 
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: space-between;
-    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+  
 }
+
 
 
 input.search-bar{
