@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans';
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    /* font-size: 140%; */
+}
+
+
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: left;
+    padding: 2em;
+    width: 100%;
+    border-radius: 30px;
+    max-width: 320px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: space-between;
+    align-items: center;
+}
+
+
+input.search-bar{
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 18px;
+    color: white;
+    width: 78%;
+    font-family: inherit;
+}
+
+button{
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-radius: 50%;
+    margin-left: .8rem;
+    height: 2.3rem;
+    width: 2.3rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background: white;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon{
+    margin-right: .5rem;
+    color: white;
+}
+
+.loading{
+    display: none;
+}
